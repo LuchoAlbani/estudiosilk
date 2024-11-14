@@ -1,0 +1,60 @@
+/* Fuentes */
+@font-face {
+    font-family: 'Acumin';
+    src: url('fonts/Acumin-RPro.otf') format('opentype');
+}
+
+body {
+    margin: 0;
+    color: #161616;
+    background-color: #F2F0EB; /* Fondo Snow White */
+    font-family: 'Acumin', sans-serif; /* Aplica la fuente globalmente */
+}
+
+header {
+    display: flex;
+    flex-direction: column; /* Cambia la dirección para que sea en columna */
+    align-items: center; /* Centra el contenido horizontalmente */
+    padding: 20px 40px;
+    background-color: #161616; /* Fondo Phantom */
+}
+
+header .logo img {
+    height: 150px;
+    margin-bottom: 10px; /* Reduce el margen inferior */
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0; /* Elimina cualquier margen superior */
+    justify-content: center;/* Centra el menú */
+}
+    
+
+header nav ul li a {
+    text-decoration: none;
+    color: #F2F0EB;
+    /* Texto blanco suave */
+    font-family: 'Acumin', sans-serif;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #086B45;
+    /* Posy Green */
+}
+
+/* Logo styling */
+.logo img {
+    font-size: 1.5rem;
+    color: #F2F0EB;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover img {
+    transform: scale(1.1);
+}
