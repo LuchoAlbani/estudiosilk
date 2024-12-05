@@ -27,6 +27,11 @@ header {
   font-family: "Acumin", sans-serif; /* Aplica la fuente globalmente */
 }
 
+header nav {
+  margin-top: 5px; /* Ajusta este valor según sea necesario */
+}
+
+
 header nav ul {
   list-style: none;
   display: flex;
@@ -34,19 +39,29 @@ header nav ul {
   padding: 0;
   margin: 0; /* Elimina cualquier margen superior */
   justify-content: center; /* Centra el menú */
+
 }
 
 header nav ul li a {
   text-decoration: none;
-  color: #f2f0eb;  /* Texto blanco suave */
+  color: #f2f0eb; /* Texto blanco suave */
   font-size: 1rem;
-  transition: color 0.3s ease;
+  position: relative; /* Necesario para el pseudo-elemento */
 }
 
-header nav ul li a:hover {
-  color: #086b45; /* Posy Green */
+header nav ul li a::after {
+  content: '';
+  position: absolute;
+  bottom: -20px; /* Ubicación de la línea debajo del texto */
+  left: 0;
+  width: 0; /* Inicialmente, la línea no es visible */
+  height: 2px; /* Grosor de la línea */
+  background-color: #f2f0eb; /* Color de la línea */
 }
-  
+
+header nav ul li a:hover::after {
+  width: 100%; /* Al pasar el cursor, la línea cubre todo el texto */
+}  
 
 /* Logo styling */
 .logo img {
@@ -60,6 +75,7 @@ header nav ul li a:hover {
 }
 
 /*linea divisoria*/
+
 .divider {
   width: 110%; /* Ajusta el ancho de la línea */
   height: 1px;
@@ -67,3 +83,5 @@ header nav ul li a:hover {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+/* */
