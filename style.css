@@ -17,66 +17,53 @@ body {
   background-color: #f2f0eb; /* Fondo Snow White */
 }
 
-/* HEADER */
 
+
+
+
+/* HEADER */
 header {
   display: flex;
   flex-direction: column;
-  /* Cambia la dirección para que sea en columna */
   align-items: center;
-  /* Centra el contenido horizontalmente */
   padding: 20px 40px;
   background-color: #161616;
-  /* Fondo Phantom */
   font-family: "Acumin", sans-serif;
-  /* Aplica la fuente globalmente */
 }
 
 header nav {
-  margin-top: 5px;
-  /* Ajusta este valor según sea necesario */
+  margin-top: 10px;
+  margin-bottom: -5px;
 }
-
 
 header nav ul {
   list-style: none;
   display: flex;
-  gap: 40px;
-  /* Separacion entre referencias */
+  gap: 40px;/* Separacion entre referencias */
   padding: 0;
-  margin: 0;
-  /* Elimina cualquier margen superior */
-  justify-content: center;
-  /* Centra el menú */
-
+  margin: 0;/* Elimina cualquier margen superior */
+  justify-content: center;/* Centra el menú */
 }
 
 header nav ul li a {
   text-decoration: none;
-  color: #f2f0eb;
-  /* Texto blanco suave */
+  color: #f2f0eb; /* Texto blanco suave */
   font-size: 1rem;
-  position: relative;
-  /* Necesario para el pseudo-elemento */
+  position: relative; /* Necesario para el pseudo-elemento */
 }
 
 header nav ul li a::after {
-  content: '';
+  content: "";
   position: absolute;
-  bottom: -20px;
-  /* Ubicación de la línea debajo del texto */
+  bottom: -15px;/* Ubicación de la línea debajo del texto */
   left: 0;
-  width: 0;
-  /* Inicialmente, la línea no es visible */
-  height: 2px;
-  /* Grosor de la línea */
-  background-color: #f2f0eb;
-  /* Color de la línea */
+  width: 0;/* Inicialmente, la línea no es visible */
+  height: 2px;/* Grosor de la línea */
+  background-color: #f2f0eb;/* Color de la línea */
 }
 
 header nav ul li a:hover::after {
-  width: 100%;
-  /* Al pasar el cursor, la línea cubre todo el texto */
+  width: 100%; /* Al pasar el cursor, la línea cubre todo el texto */
 }
 
 /* Logo styling */
@@ -92,13 +79,14 @@ header nav ul li a:hover::after {
 
 /*linea divisoria*/
 .divider {
-  width: 100vw;
-  /* Ajusta el ancho de la línea */
+  width: 100vw;/* Ajusta el ancho de la línea */
   height: 1px;
   background-color: #e0e0e0;
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+
 
 
 
@@ -142,10 +130,10 @@ footer {
   margin-top: 10px;
 }
 
-.footer-links a {
+.footer-links a,
+.footer-legal a {
   color: #f2f0eb;
   text-decoration: none;
-
 }
 
 .footer-links span {
@@ -153,8 +141,8 @@ footer {
 }
 
 .footer-socials {
-  display: flex;  /* Asegura el uso de flexbox */
-  gap: 25px;  /* Aumenta el espacio entre los logos */
+  display: flex; /* Asegura el uso de flexbox */
+  gap: 25px; /* Aumenta el espacio entre los logos */
 }
 
 .footer-socials a img {
@@ -169,7 +157,7 @@ footer {
 
 .footer-legal {
   display: flex;
-  justify-content: space-between;  /* Distribuye el espacio entre los elementos */
+  justify-content: space-between; /* Distribuye el espacio entre los elementos */
   align-items: center;
   font-size: 0.9rem;
   color: #f2f0eb;
@@ -180,27 +168,17 @@ footer {
 
 .footer-legal p {
   margin: 0; /* Elimina el margen por defecto del párrafo */
-  
 }
 
 .footer-links {
   display: flex;
   gap: 20px; /* Espacio entre los enlaces */
-  
-}
-
-.footer-legal a {
-  color: #f2f0eb;
-  text-decoration: none;
-  /*opacity: 0.5;*/
 }
 
 .divider-line {
-  width: 50wv;/* Ajusta el ancho de la línea */
+  width: 50wv; /* Ajusta el ancho de la línea */
   height: 1px;
   background-color: #f2f0eb;
   align-items: center;
   opacity: 0.2;
 }
-
-
