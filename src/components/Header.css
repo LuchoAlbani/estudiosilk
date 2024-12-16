@@ -1,0 +1,66 @@
+/* HEADER */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #161616;
+    font-family: "Acumin", sans-serif;
+  }
+  
+  header nav {
+    margin-top: 10px;
+    margin-bottom: -5px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;/* Separacion entre referencias */
+    padding: 0;
+    margin: 0;/* Elimina cualquier margen superior */
+    justify-content: center;/* Centra el menú */
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #f2f0eb; /* Texto blanco suave */
+    font-size: 1rem;
+    position: relative; /* Necesario para el pseudo-elemento */
+  }
+  
+  header nav ul li a::after {
+    content: "";
+    position: absolute;
+    bottom: -15px;/* Ubicación de la línea debajo del texto */
+    left: 0;
+    width: 0;/* Inicialmente, la línea no es visible */
+    height: 2px;/* Grosor de la línea */
+    background-color: #f2f0eb;/* Color de la línea */
+  }
+  
+  header nav ul li a:hover::after {
+    width: 100%; /* Al pasar el cursor, la línea cubre todo el texto */
+  }
+  
+  /* Logo styling */
+  .logo img {
+    height: 80px;
+    color: #f2f0eb;
+    transition: transform 0.3s ease;
+  }
+  
+  .logo:hover img {
+    transform: scale(1.1);
+  }
+  
+  /*linea divisoria*/
+  .divider {
+    width: 100vw;/* Ajusta el ancho de la línea */
+    height: 1px;
+    background-color: #e0e0e0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  

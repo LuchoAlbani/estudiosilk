@@ -1,0 +1,37 @@
+/* Fuentes */
+@font-face {
+  font-family: "Acumin";
+  src: url("./assets/fonts/Acumin-RPro.woff2") format("woff2"),
+       url("./assets/fonts/Acumin-RPro.woff") format("woff"),
+       url("./assets/fonts/Acumin-RPro.otf") format("opentype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* App.css */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* La página ocupa al menos toda la altura de la pantalla */
+  color: #161616;
+  background-color: #f2f0eb; /* Fondo Snow White */
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; /* Asegura que el contenido crezca */
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; /* Crece para ocupar el espacio */
+}
+
+
+
+

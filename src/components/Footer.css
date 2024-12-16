@@ -1,0 +1,93 @@
+/* FOOTER */
+footer {
+    background-color: #244d3c; /* Verde oscuro */
+    color: #f2f0eb; /* Blanco suave */
+    padding: 40px 80px;
+    font-family: "Acumin", sans-serif;
+    margin-top: auto;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .footer-content img {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+    max-width: 650px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-redes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -10px;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 10px;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  .footer-links a,
+  .footer-legal a {
+    color: #f2f0eb;
+    text-decoration: none;
+  }
+  
+  .footer-links span {
+    color: #f2f0eb;
+  }
+  
+  .footer-socials {
+    display: flex; /* Asegura el uso de flexbox */
+    gap: 25px; /* Aumenta el espacio entre los logos */
+  }
+  
+  .footer-socials a img {
+    width: 25px;
+    height: 25px;
+    transition: transform 0.3s ease;
+  }
+  
+  .footer-socials a:hover img {
+    transform: scale(1.2);
+  }
+  
+  .footer-legal {
+    display: flex;
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    align-items: center;
+    font-size: 0.9rem;
+    color: #f2f0eb;
+    opacity: 0.3;
+    padding: 20px 0; /* Agrega un poco de padding para separación vertical */
+    margin-bottom: -20px;
+  }
+  
+  .footer-legal p {
+    margin: 0; /* Elimina el margen por defecto del párrafo */
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 20px; /* Espacio entre los enlaces */
+  }
+  
+  .divider-line {
+    width: 50wv; /* Ajusta el ancho de la línea */
+    height: 1px;
+    background-color: #f2f0eb;
+    align-items: center;
+    opacity: 0.2;
+  }
+  
