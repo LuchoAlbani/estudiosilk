@@ -1,0 +1,41 @@
+.banner-container {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slide {
+    position: relative;
+    height: 50vh; /* Altura del banner */
+  }
+  
+  .slide-image {
+    width: 100%; /* La imagen ocupa todo el ancho */
+    height: 100%; /* La imagen ocupa toda la altura del contenedor */
+    object-fit: cover; /* Asegura que la imagen se recorte adecuadamente */
+  }
+  
+  .slide-button {
+    position: absolute; /* El botón queda superpuesto */
+    bottom: 15%; /* Ajusta la posición vertical del botón */
+    left: 6%; /* Ajusta la posición horizontal del botón */
+    background-color: rgba(0, 0, 0, 0.8); /* Botón con fondo negro opaco */
+    color: #fff; /* Texto blanco */
+    padding: 15px 30px;
+    border: none;
+    font-family: "Acumin", sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .slide-button:hover {
+    transform: scale(1.05);
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  
+  /* Oculta las flechas del Swiper */
+.swiper-button-prev,
+.swiper-button-next {
+  display: none !important;
+}

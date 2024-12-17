@@ -9,9 +9,14 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box; /* Añadir esto asegura que padding y border estén incluidos en las dimensiones */
 }
 
 /* App.css */
+html, body {
+  overflow-x: hidden; /* Evita el desbordamiento horizontal */
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -31,7 +36,4 @@ body {
   flex-direction: column;
   flex-grow: 1; /* Crece para ocupar el espacio */
 }
-
-
-
 
