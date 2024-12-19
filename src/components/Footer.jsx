@@ -5,7 +5,7 @@ function Footer() {
     <footer>
       <div className="footer-container">
         <div className="footer-content">
-          <img src="src/assets/Images/silk_logo-02.png" alt="Logo de Estudiosilk footer" />
+          <img src="images/silk_logo-02.png" alt="Logo de Estudiosilk footer" />
           <p>
             Combinamos creatividad y estrategia para transformar tu estilo en una herramienta de confianza y empoderamiento,
             haciéndote sentir segura y auténtica cada día.
@@ -19,9 +19,9 @@ function Footer() {
             <a href="#contacto">CONTACTO</a>
           </div>
           <div className="footer-socials">
-            <a href="#"><img src="src/assets/Images/instagram-icon.png" alt="Instagram" /></a>
-            <a href="#"><img src="src/assets/Images/facebook-icon.png" alt="Facebook" /></a>
-            <a href="#"><img src="src/assets/Images/tiktok-icon.png" alt="TikTok" /></a>
+            <a href="#"><img src="images/instagram-icon.png" alt="Facebook" /></a>
+            <a href="#"><img src="images/facebook-icon.png" alt="Facebook" /></a>
+            <a href="#"><img src="images/tiktok-icon.png" alt="TikTok" /></a>
           </div>
         </div>
 

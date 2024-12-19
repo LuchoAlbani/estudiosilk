@@ -5,7 +5,7 @@ function Header() {
     <header>
       <div className="logo">
         <a href="#home">
-          <img src="src/assets/Images/silk_logo-02.png" alt="Logo de Estudiosilk" />
+          <img src="images/silk_logo-02.png" alt="Logo de Estudiosilk" />
         </a>
       </div>
       <div className="divider"></div>
