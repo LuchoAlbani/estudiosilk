@@ -1,17 +1,19 @@
-import './App.css';  // Aquí importamos los estilos globales (App.css)
-import Header from './components/Header';  // Importamos el componente Header
-import Footer from './components/Footer';  // Importamos el componente Footer
+import './App.css'; 
+import Header from './components/Header';  
+import Footer from './components/Footer';  
 import Banner from './components/Banner';
+import Section from './components/Section';
 import './components/Footer.css';
 import './components/Header.css';
-
+import './components/Section.css'
 
 function App() {
   return (
     <div className="App">
-      <Header />  {/* Usamos el componente Header */}
+      <Header />  
       <Banner />
-      <Footer /> {/* Usamos el componente Footer */}
+      <Section />
+      <Footer /> 
     </div>
   );
 }

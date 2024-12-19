@@ -1,0 +1,51 @@
+.section-container {
+    background-color: #161616; /* Negro */
+    color: #f2f2f2; /* Blanco suave */
+    text-align: center;
+    padding: 60px 40px; /* Más espacio */
+  }
+  
+  .section-container h2 {
+    font-size: 2.4rem; /* Aumenta el tamaño del título */
+    margin-bottom: 50px;
+  }
+  
+  .section-container h2 strong {
+    font-weight: bold;
+  }
+  
+  .section-container h2 em {
+    font-style: italic;
+    color: #ffffff;
+  }
+  
+  .section-grid {
+    display: flex;
+    justify-content: center;
+    gap: 100px; /* Espacio entre las columnas */
+    flex-wrap: wrap;
+  }
+  
+  .section-item {
+    width: 360px; /* Aumenta el tamaño de cada columna */
+    text-align: left;
+  }
+  
+  .section-image {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+    object-fit: cover; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Añade sombra a las imágenes */
+  }
+  
+  .section-item h3 {
+    font-size: 1.5rem; /* Aumenta el tamaño del subtítulo */
+    margin-bottom: 15px;
+  }
+  
+  .section-item p {
+    font-size: 1.1rem; /* Aumenta el tamaño del texto */
+    line-height: 1.8;
+  }
+  
