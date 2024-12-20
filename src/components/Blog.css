@@ -1,0 +1,61 @@
+.blog {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+  
+.blog h2 {
+    font-size:  40px;
+    margin-top: 60px;
+}
+  
+.blog em {
+    font-style: italic;
+}
+  
+.blog-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.carousel-button {
+    background: none;
+    border: none;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.blog-item {
+    margin: 60px 30px;
+    text-align: left;
+    position: relative; /* Asegura que los elementos hijos se posicionen correctamente */
+}
+  
+.blog-item img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center 10%;
+}
+  
+.blog-category {
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(0, 0, 0); /* Texto blanco para contraste */
+    position: absolute; /* Posición absoluta respecto a .blog-item */
+    bottom: 60px; /* Ajusta la posición desde la parte superior */
+    left: 10px; /* Ajusta la posición desde la parte izquierda */
+    background-color: #f2f0eb; /* Fondo oscuro semi-transparente */
+    padding: 5px 10px; /* Espaciado interno */
+    text-transform: uppercase; /* Texto en mayúsculas */
+}
+  
+.blog-item h3 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+  
+.blog-item p {
+    font-size: 12px;
+    color: gray;
+}
