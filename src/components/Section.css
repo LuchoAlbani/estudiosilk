@@ -36,6 +36,7 @@
     height: 400px;
     margin-bottom: 20px;
     object-fit: cover; 
+    object-position: center 100%;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Añade sombra a las imágenes */
   }
   

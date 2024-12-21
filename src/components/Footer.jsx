@@ -19,9 +19,15 @@ function Footer() {
             <a href="#contacto">CONTACTO</a>
           </div>
           <div className="footer-socials">
-            <a href="#"><img src="images/instagram-icon.png" alt="Facebook" /></a>
-            <a href="#"><img src="images/facebook-icon.png" alt="Facebook" /></a>
-            <a href="#"><img src="images/tiktok-icon.png" alt="TikTok" /></a>
+            <a href="https://www.instagram.com/estudiosilk/" target="_blank">
+              <img src="images/instagram.png" alt="Instagram" />
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61565777219419" target="_blank">
+              <img src="images/facebook.png" alt="Facebook" />
+            </a>
+            <a href="https://www.tiktok.com/@estudiosilk" target="_blank">
+              <img src="images/tik-tok.png" alt="TikTok" />
+            </a>
           </div>
         </div>
 

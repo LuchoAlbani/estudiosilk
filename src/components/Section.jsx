@@ -5,21 +5,21 @@ const Section = () => {
   const items = [
     {
       id: 1,
-      image: "images/section_prueba_3.png", // Ruta desde public
+      image: "images/Fotos_sección_pre-blog-04.jpg", // Ruta desde public
       title: "DIGITALIZAMOS TU CLOSET",
       description:
         "Accede a tu guardarropa desde cualquier lugar con nuestro sistema digital.",
     },
     {
       id: 2,
-      image: "images/section_prueba_2.png", // Ruta desde public
+      image: "images/Fotos_sección_pre-blog-05.jpg", // Ruta desde public
       title: "ELEVAMOS TU ESTILO",
       description:
         "De la mano de tu estilista personal, creamos looks que reflejan quién sos y potencian tu mejor versión.",
     },
     {
       id: 3,
-      image: "images/section_prueba_1.png", // Ruta desde public
+      image: "images/Fotos_sección_pre-blog-06.jpg", // Ruta desde public
       title: "EMPODERAMOS TU IMAGEN",
       description:
         "Te ayudamos a proyectar confianza y seguridad a través de un estilo auténtico y único.",

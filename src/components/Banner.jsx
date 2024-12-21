@@ -10,18 +10,19 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 const slides = [
   {
     id: 1,
-    image: "./images/PRUEBA.jpg",
+    image: "./images/Banners_1.jpg",
+    buttonText: null, // No mostrar botón
+  },
+  {
+    id: 2,
+    image: "./images/Banners-02.jpg",
+    
     buttonText: "CREA TU ARMARIO PERFECTO >",
     buttonAction: () => alert("Crea tu armario perfecto"),
   },
   {
-    id: 2,
-    image: "",
-    buttonText: null, // No mostrar botón
-  },
-  {
     id: 3,
-    image: "",
+    image: "./images/Banners-03.jpg",
     buttonText: "DESCUBRE MÁS >",
     buttonAction: () => alert("Explora más opciones"),
   },
