@@ -3,8 +3,8 @@ import './Quiz.css';
 
 const Quiz = () => {
   return (
-    <div className="quiz-container">
-      <div className="quiz-box">
+    <div className="quiz-container" style={{ backgroundImage: "url('/images/pixelcut-export.jpg')" }}>
+      <div className="quiz-box" style={{ backgroundImage: "url('/images/Quiz_assets-08.png')" }}>
         <div className="quiz-content">
           <h2>¿Todavía no encontraste tu estilo?</h2>
           <p>
@@ -15,19 +15,19 @@ const Quiz = () => {
       </div>
       <div className="quiz-images">
         <div className="quiz-image-container">
-          <img src="images/model_1.png" alt="Model 1" className="quiz-image" />
+          <img src="/images/model_1.png" alt="Model 1" className="quiz-image" />
         </div>
         <div className="quiz-image-container">
-          <img src="images/model_2.png" alt="Model 2" className="quiz-image" />
+          <img src="/images/model_2.png" alt="Model 2" className="quiz-image" />
         </div>
         <div className="quiz-image-container">
-          <img src="images/model_3.png" alt="Model 3" className="quiz-image" />
+          <img src="/images/model_3.png" alt="Model 3" className="quiz-image" />
         </div>
         <div className="quiz-image-container">
-          <img src="images/model_4.png" alt="Model 4" className="quiz-image" />
+          <img src="/images/model_4.png" alt="Model 4" className="quiz-image" />
         </div>
         <div className="quiz-image-container">
-          <img src="images/model_5.png" alt="Model 5" className="quiz-image" />
+          <img src="/images/model_5.png" alt="Model 5" className="quiz-image" />
         </div>
       </div>
     </div>
@@ -35,3 +35,4 @@ const Quiz = () => {
 };
 
 export default Quiz;
+

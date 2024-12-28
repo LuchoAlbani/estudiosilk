@@ -1,6 +1,5 @@
 /* Contenedor principal */
 .quiz-container {
-  background-image: url('images/pixelcut-export.jpg'); /* Imagen de fondo */
   background-size: cover;
   background-position: center;
   color: #161616; /* Texto oscuro */
@@ -11,7 +10,6 @@
 
 /* Cuadro del contenido */
 .quiz-box {
-  background-image: url('images/Quiz_assets-08.png'); /* Imagen del cuadro */
   background-size: contain;
   background-repeat: no-repeat;
   width: 700px; /* Ancho del cuadro */
