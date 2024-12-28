@@ -21,8 +21,6 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh; /* La página ocupa al menos toda la altura de la pantalla */
-  color: #161616;
-  background-color: #f2f0eb; /* Fondo Snow White */
 }
 
 #root {
