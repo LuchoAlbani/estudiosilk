@@ -1,18 +1,36 @@
-/* Contenedor principal */
+@font-face {
+  font-family: "AcuminProBold";
+  src: url("assets/fonts/Acumin-BdltPro.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "AcuminProRegular";
+  src: url("assets/fonts/Acumin-RPro.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "AcuminProRegular";
+  src: url("assets/fonts/Acumin-BdPro.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "AcuminProItalic";
+  src: url("assets/fonts/Acumin-ItPro.otf") format("opentype");
+}
+
 .quiz-container {
   background-size: cover;
   background-position: center;
   color: #161616; /* Texto oscuro */
   text-align: center;
   padding: 50px 20px; /* Márgenes amplios */
-  font-family: Arial, sans-serif; /* Fuente limpia */
 }
 
 /* Cuadro del contenido */
 .quiz-box {
   background-size: contain;
   background-repeat: no-repeat;
-  width: 700px; /* Ancho del cuadro */
+  width: 670px; /* Ancho del cuadro */
   height: 500px; /* Altura del cuadro */
   margin: 0 auto 60px; /* Centra horizontalmente y agrega margen inferior */
   display: flex; /* Flexbox para centrar contenido */
@@ -24,35 +42,46 @@
 .quiz-content {
   margin-bottom: 50px;
   text-align: center;
-  max-width: 90%; /* Asegúrate de que el texto no se desborde */
+  max-width: 65%; /* Asegúrate de que el texto no se desborde */
 }
 
 .quiz-content h2 {
-  font-size: 2.2rem; /* Tamaño del título */
-  margin: 30px 0; /* Espaciado superior e inferior */
-  font-weight: bold;
+  font-family: "AcuminBdPro";
+  font-size: 2.5rem; /* Tamaño del texto */
+  font-weight: bold; /* Grosor del texto */
+  text-align: center; /* Alineación del texto */
+  margin-bottom: 30px; /* Espaciado inferior */
 }
 
 .quiz-content p {
   font-size: 1.2rem; /* Tamaño del texto */
   line-height: 1.6; /* Altura de línea para mejor lectura */
-  margin-bottom: 20px; /* Espaciado inferior */
+  text-align: justify; /* Centra el texto horizontalmente */
+  margin: 20px; /* Centra el bloque de texto */
+  margin-bottom: 25px; /* Espaciado inferior mayor para mayor separación */
+  font-family: "AcuminRPro", sans-serif;
 }
 
-.quiz-content strong {
-  font-weight: bold;
+.quiz-content p strong {
+  font-family: "AcuminRPro", sans-serif; /* Fuente para "quiz" */
+  font-weight: bold; /* Grosor del texto */
 }
 
 .quiz-button {
   background-color: #1b4f3c; /* Verde oscuro */
   color: #ffffff; /* Texto blanco */
-  padding: 12px 24px; /* Tamaño del botón */
+  padding: 10px 10px; /* Tamaño del botón */
   border: none;
-  font-size: 1rem;
+  font-size: 1.1rem; /* Tamaño de la fuente */
   cursor: pointer;
-  margin-top: 20px;
   transition: transform 0.3s ease, background-color 0.3s ease;
-  letter-spacing: 0.5px; /* Espaciado entre letras */
+  display: inline-block; /* Centra el botón */
+  margin-top: 20px; /* Espaciado superior para separación con el texto */
+}
+
+.quiz-button::after {
+  content: ">";
+  margin-left: 20px; /* Espaciado entre el texto y el símbolo */
 }
 
 .quiz-button:hover {
@@ -64,13 +93,12 @@
 .quiz-images {
   display: flex;
   justify-content: center;
-  gap: 100px; /* Espaciado entre imágenes */
   margin-top: 40px;
   flex-wrap: wrap; /* Ajusta imágenes en pantallas pequeñas */
 }
 
 .quiz-image-container {
-  padding: 10px;
+  padding: 5px;
   transition: transform 0.3s ease;
 }
 
@@ -83,6 +111,7 @@
   width: 120px; /* Ancho inicial */
   height: 300px; /* Altura inicial */
   object-fit: cover; /* Ajusta la imagen al contenedor */
+  object-position: 40%;
   transition: transform 0.3s ease;
 }
 

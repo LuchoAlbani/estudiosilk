@@ -29,7 +29,7 @@ const Section = () => {
   return (
     <div className="section-container">
       <h2>
-        En <strong>SILK</strong> creamos más que looks:{" "}
+        En <span className="silk">SILK</span> creamos más que looks:<br />
         <em>construimos confianza.</em>
       </h2>
       <div className="section-grid">

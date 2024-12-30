@@ -1,52 +1,61 @@
 .section-container {
-    background-color: #161616; /* Negro */
-    color: #f2f2f2; /* Blanco suave */
-    text-align: center;
-    padding: 60px 40px; /* Más espacio */
-  }
-  
-  .section-container h2 {
-    font-size: 2.4rem; /* Aumenta el tamaño del título */
-    margin-bottom: 50px;
-  }
-  
-  .section-container h2 strong {
-    font-weight: bold;
-  }
-  
-  .section-container h2 em {
-    font-style: italic;
-    color: #ffffff;
-  }
-  
-  .section-grid {
-    display: flex;
-    justify-content: center;
-    gap: 100px; /* Espacio entre las columnas */
-    flex-wrap: wrap;
-  }
-  
-  .section-item {
-    width: 360px; /* Aumenta el tamaño de cada columna */
-    text-align: left;
-  }
-  
-  .section-image {
-    width: 100%;
-    height: 400px;
-    margin-bottom: 20px;
-    object-fit: cover; 
-    object-position: center 100%;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Añade sombra a las imágenes */
-  }
-  
-  .section-item h3 {
-    font-size: 1.5rem; /* Aumenta el tamaño del subtítulo */
-    margin-bottom: 15px;
-  }
-  
-  .section-item p {
-    font-size: 1.1rem; /* Aumenta el tamaño del texto */
-    line-height: 1.8;
-  }
-  
+  background-color: #161616; /* Negro */
+  color: #f2f2f2; /* Blanco suave */
+  text-align: center;
+  padding: 60px 40px; /* Más espacio */
+}
+
+.section-container h2 {
+  font-size: 3.5rem; /* Aumenta el tamaño del título */
+  margin-bottom: 50px;
+  font-family: 'very-vogue-text', sans-serif; /* Fuente del título */
+  letter-spacing: 1.5px; /* Espaciado entre letras */
+  font-weight: 100; /* Reduce el grosor de la fuente */
+}
+
+.section-container h2 em {
+  font-size: 3.5rem; 
+  font-family: 'vogue-text-italic', sans-serif; /* Fuente para el texto en cursiva */
+  color: #ffffff;
+  font-weight: 50; /* Reduce el grosor de la fuente */
+}
+
+/* Aplica la fuente ClassyVogue solo a la palabra SILK */
+.section-container .silk {
+  font-family: 'ClassyVogue', sans-serif;
+}
+
+.section-grid {
+  display: flex;
+  justify-content: center;
+  gap: 100px; /* Espacio entre las columnas */
+  flex-wrap: wrap;
+}
+
+.section-item {
+  width: 360px; /* Aumenta el tamaño de cada columna */
+  text-align: left;
+}
+
+.section-image {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 20px;
+  object-fit: cover; 
+  object-position: center 100%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Añade sombra a las imágenes */
+}
+
+.section-item h3 {
+  font-size: 1.5rem; /* Aumenta el tamaño del subtítulo */
+  margin-bottom: 15px;
+  font-family: 'AcuminBdPro', sans-serif; /* Fuente para subtítulos */
+  font-weight: 300; /* Reduce el grosor de la fuente */
+}
+
+.section-item p {
+  font-size: 1.1rem; /* Aumenta el tamaño del texto */
+  line-height: 1.8;
+  font-family: 'AcuminRPro', sans-serif; /* Fuente para la descripción */
+  font-weight: 300; /* Reduce el grosor de la fuente */
+}
