@@ -1,0 +1,62 @@
+.bloggers-page {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Vogue', sans-serif;
+    color: #000;
+    background-color: #fff;
+    width: 100%;
+}
+
+.bloggers {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.bloggers-title {
+    font-size: 50px;
+    margin-bottom: 100px;
+    font-weight: 400;
+    text-align: center; /* Se mantiene centrado */
+    width: 100%;
+}
+
+.bloggers-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Todo el contenido alineado a la izquierda */
+    width: 100%;
+    margin-left: 50px; /* Ajusta según necesites para mover más a la izquierda */
+}
+
+.blogger-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.blogger-image {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.blogger-info {
+    text-align: left;
+}
+
+.blogger-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.blogger-author,
+.blogger-date {
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 5px;
+}
